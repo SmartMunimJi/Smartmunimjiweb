@@ -1,0 +1,17 @@
+.tech-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.tech-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.tech-img {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}

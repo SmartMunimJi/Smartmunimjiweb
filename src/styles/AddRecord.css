@@ -1,0 +1,74 @@
+.add-record-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #5e1e68, #d0473a);
+  padding: 2rem;
+}
+
+.preview-img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+.main-image img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+}
+
+.thumb-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.thumb-upload {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  border: 2px dashed #ccc !important;
+  background-color: #f8f8f8;
+}
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.image-thumb.selected {
+  border-color: #007bff;
+  transform: scale(1.05);
+}
+
+.add-box {
+  width: 80px;
+  height: 80px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #999;
+  cursor: pointer;
+}
+
+.main-thumbnail {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+.header-container {
+  background: linear-gradient(135deg, #5e1e68, #d0473a);
+  padding: 20px;
+  border-bottom: 5px solid white;
+}
+
+.smart-heading {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: 'Segoe UI', sans-serif;
+  text-shadow: 2px 2px #00000044;
+}
+
+.munimji-img {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
